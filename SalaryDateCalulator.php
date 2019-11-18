@@ -51,6 +51,10 @@ Class SalaryDateCalulator
         return $monthDate->format('d-m-Y');
     }
 
+    /**
+     * @param int $year
+     * @param array $resultDate
+     */
     public function createCSV(int $year, array $resultDate)
     {
         try {

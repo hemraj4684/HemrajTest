@@ -13,3 +13,4 @@ $resultDate = [];
 $sD = new SalaryDateCalulator();
 $resultDate = $sD->salaryMonthAsPerYear($year);
 $sD->createCSV($year, $resultDate);
+fclose($handle);
